@@ -2,8 +2,11 @@
 
 <p align="align left">
 UAS Pemrogaraman Website 2 2024
-<p Nama    : Faris Akbar Abimanyu
+
+Nama    : Faris Akbar Abimanyu
+
 NIM     : H1D021072     
+
+
 Penjelasan Aplikasi dan Jawaban UAS ada di pdf
-</p>
 </p>
