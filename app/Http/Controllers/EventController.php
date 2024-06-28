@@ -8,6 +8,9 @@ use Illuminate\Http\Request;
 
 class EventController extends Controller
 {
+
+    // ... metode CRUD untuk Event
+
     public function index()
     {
         $events = Event::with('location')->get();

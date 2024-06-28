@@ -1,10 +1,17 @@
 @extends('layouts.app')
 
+@section('title', 'Events List')
+
 @section('content')
 <div class="container">
     <h1>Events</h1>
-    <a href="{{ route('events.create') }}" class="btn btn-primary">Create Event</a>
-    <table class="table">
+    <a href="{{ route('events.create') }}" class="btn btn-primary mb-3">Create Event</a>
+    @if(session('success'))
+    <div class="alert alert-success">
+        {{ session('success') }}
+    </div>
+    @endif
+    <table class="table table-striped">
         <thead>
             <tr>
                 <th>ID</th>
